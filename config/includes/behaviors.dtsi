@@ -106,9 +106,9 @@ ZMK_MACRO(scr_shot, bindings=<&macro_tap &kp LG(LS(N4))>;)
 /* ----------- */
 
 /* Tap Dances */
-ZMK_TAP_DANCE(num_dance, bindings=<&sl NUM>,<&num_word NUM>;)
-ZMK_TAP_DANCE(sys_dance, bindings=<&sl SYS>,<&tog SYS>;)
-ZMK_TAP_DANCE(copy_cut,  bindings=<&kp LG(C)>,<&kp LG(X)>;)
+ZMK_TAP_DANCE(num_dance, bindings=<&sl NUM>,<&num_word NUM>; tapping-term-ms=<280>;)
+ZMK_TAP_DANCE(sys_dance, bindings=<&sl SYS>,<&tog SYS>;      tapping-term-ms=<280>;)
+ZMK_TAP_DANCE(copy_cut,  bindings=<&kp LG(C)>,<&kp LG(X)>;   tapping-term-ms=<400>;)
 /* ------------- */
 
 /*
