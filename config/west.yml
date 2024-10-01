@@ -6,11 +6,33 @@ manifest:
       url-base: https://github.com/dhruvinsh
     - name: urob
       url-base: https://github.com/urob
+    - name: badjeff
+      url-base: https://github.com/badjeff
   projects:
+    # For Mouse Behavior
     - name: zmk
       remote: petejohanson
       revision: feat/pointers-move-scroll
       import: app/west.yml
+    - name: zmk-analog-input-driver
+      remote: badjeff
+      revision: main
+    - name: zmk-split-peripheral-input-relay
+      remote: badjeff
+      revision: main
+    - name: zmk-split-peripheral-output-relay
+      remote: badjeff
+      revision: main
+    - name: zmk-input-behavior-listener
+      remote: badjeff
+      revision: main
+    - name: zmk-output-behavior-listener
+      remote: badjeff
+      revision: main
+    - name: cirque-input-module
+      remote: badjeff
+      revision: main
+    # ----
     - name: zmk-auto-layer
       remote: urob
       revision: main
